@@ -2,13 +2,13 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-  cloud {
-    organization = "thaipham"
+  # cloud {
+  #   organization = "thaipham"
 
-    workspaces {
-      name = "tfc-guide-example"
-    }
-  }
+  #   workspaces {
+  #     name = "tfc-guide-example"
+  #   }
+  # }
 
   required_providers {
     aws = {
